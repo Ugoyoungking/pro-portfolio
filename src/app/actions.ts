@@ -25,13 +25,15 @@ export async function handleContactForm(prevState: any, formData: FormData) {
     };
   }
 
-  // In a real application, you would send an email here.
-  // For this demo, we'll just log the data.
-  console.log('New contact form submission:');
+  // In a real application, you would use a service like Resend or Nodemailer to send an email.
+  // For this demo, we'll log the data to the console to simulate sending.
+  console.log('--- New Contact Form Submission ---');
+  console.log('Recipient: ugochukwujonathan067@gmail.com');
   console.log('Name:', validatedFields.data.name);
   console.log('Email:', validatedFields.data.email);
   console.log('Message:', validatedFields.data.message);
-
+  console.log('-----------------------------------');
+  
   return {
     message: 'Thank you for your message! I will get back to you soon.',
     errors: {},
