@@ -24,7 +24,7 @@ export async function handleContactForm(prevState: any, formData: FormData) {
       success: false
     };
   }
-  
+
   // In a real application, you would send an email here.
   // For this demo, we'll just log the data.
   console.log('New contact form submission:');

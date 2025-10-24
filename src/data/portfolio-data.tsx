@@ -58,7 +58,7 @@ export const portfolioData: PortfolioData = {
       description: 'A personal portfolio built with HTML, CSS, and JavaScript.',
       image: placeholderImages.project1,
       tags: ['HTML', 'CSS', 'JavaScript'],
-      liveUrl: '#',
+      liveUrl: 'https://ugoyoungking.github.io/portfolio/',
       repoUrl: '#',
     },
     {
@@ -66,7 +66,7 @@ export const portfolioData: PortfolioData = {
       description: 'A full-stack task management app built with React & Node.js.',
       image: placeholderImages.project2,
       tags: ['React', 'Node.js', 'Full-stack'],
-      liveUrl: '#',
+      liveUrl: 'https://ugoyoungking.github.io/portfolio/',
       repoUrl: '#',
     },
     {
@@ -74,7 +74,7 @@ export const portfolioData: PortfolioData = {
       description: 'An online shop with product listings and cart functionality.',
       image: placeholderImages.project3,
       tags: ['E-commerce', 'React', 'Node.js'],
-      liveUrl: '#',
+      liveUrl: 'https://ugoyoungking.github.io/portfolio/',
       repoUrl: '#',
     },
   ],
