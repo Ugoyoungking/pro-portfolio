@@ -1,33 +1,26 @@
 import type { PortfolioData } from '@/lib/types';
 import { Github, Linkedin, Facebook, LucideIcon } from 'lucide-react';
-import { Briefcase } from 'lucide-react';
-import { Code, Database, Server, Cloud, Palette, Bot, TestTube2 } from 'lucide-react';
+import { Code, Server, Palette } from 'lucide-react';
 
 const placeholderImages = {
   project1: {
     id: "project-1",
-    description: "Abstract geometric shapes",
-    url: "https://picsum.photos/seed/proj1/800/600",
-    hint: "abstract geometric"
+    description: "Personal Portfolio Website",
+    url: "https://picsum.photos/seed/portfolioweb/800/600",
+    hint: "portfolio website"
   },
   project2: {
     id: "project-2",
-    description: "Modern architecture building",
-    url: "https://picsum.photos/seed/proj2/600/800",
-    hint: "modern architecture"
+    description: "Task Manager Application",
+    url: "https://picsum.photos/seed/taskmanager/600/800",
+    hint: "task manager"
   },
   project3: {
     id: "project-3",
-    description: "A developer coding on a laptop",
-    url: "https://picsum.photos/seed/proj3/800/800",
-    hint: "developer coding"
+    description: "E-Commerce Storefront",
+    url: "https://picsum.photos/seed/ecommstore/800/800",
+    hint: "ecommerce store"
   },
-  project4: {
-    id: "project-4",
-    description: "A close-up of a circuit board",
-    url: "https://picsum.photos/seed/proj4/600/400",
-    hint: "circuit board"
-  }
 };
 
 const TruelancerIcon: LucideIcon = (props) => (
@@ -63,7 +56,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Portfolio Website',
       description: 'A personal portfolio built with HTML, CSS, and JavaScript.',
-      image: placeholderImages.project3,
+      image: placeholderImages.project1,
       tags: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: '#',
       repoUrl: '#',
@@ -71,7 +64,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Task Manager App',
       description: 'A full-stack task management app built with React & Node.js.',
-      image: placeholderImages.project4,
+      image: placeholderImages.project2,
       tags: ['React', 'Node.js', 'Full-stack'],
       liveUrl: '#',
       repoUrl: '#',
@@ -79,7 +72,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'E-Commerce Store',
       description: 'An online shop with product listings and cart functionality.',
-      image: placeholderImages.project2,
+      image: placeholderImages.project3,
       tags: ['E-commerce', 'React', 'Node.js'],
       liveUrl: '#',
       repoUrl: '#',
