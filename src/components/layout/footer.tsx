@@ -1,4 +1,4 @@
-import { portfolioData } from '@/data/portfolio-data';
+import { portfolioData } from '@/data/portfolio-data.tsx';
 import { AIReview } from '@/components/ai-review';
 
 export function Footer() {
@@ -9,14 +9,14 @@ export function Footer() {
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             Built by{' '}
             <a
-              href="https://github.com/ugoyoungking"
+              href="https://github.com/Ugoyoungking"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              Ugo Young
+              Ugochukwu
             </a>
-            . Inspired by the original portfolio.
+            . © 2025 Ugochukwu | Portfolio Website
           </p>
         </div>
         <div className="flex items-center gap-4">

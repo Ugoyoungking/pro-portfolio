@@ -1,4 +1,4 @@
-import { portfolioData } from '@/data/portfolio-data';
+import { portfolioData } from '@/data/portfolio-data.tsx';
 
 export function AboutSection() {
   return (

@@ -5,8 +5,8 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Portfolio Pro | Ugo Young',
-  description: 'A professional portfolio for Ugo Young, showcasing projects and skills.',
+  title: 'Ugochukwu | Web Developer in Nigeria | React & Node.js Portfolio',
+  description: "I'm Ugochukwu, a passionate Web Developer in Nigeria skilled in React, Node.js, and modern frontend development. Explore my portfolio and projects.",
 };
 
 export default function RootLayout({

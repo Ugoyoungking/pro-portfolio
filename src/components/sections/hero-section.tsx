@@ -1,4 +1,4 @@
-import { portfolioData } from '@/data/portfolio-data';
+import { portfolioData } from '@/data/portfolio-data.tsx';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 

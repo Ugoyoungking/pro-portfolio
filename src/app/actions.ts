@@ -1,7 +1,7 @@
 'use server';
 
 import { z } from 'zod';
-import { portfolioData } from '@/data/portfolio-data';
+import { portfolioData } from '@/data/portfolio-data.tsx';
 import { portfolioReview } from '@/ai/flows/portfolio-review-with-ai';
 
 const contactFormSchema = z.object({
