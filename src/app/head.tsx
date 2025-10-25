@@ -43,6 +43,10 @@ export default function Head() {
         property="og:image"
         content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ugochukwu_Jonathan_%28Ugoyoungking%29.jpg/336px-Ugochukwu_Jonathan_%28Ugoyoungking%29.jpg?20251023225125"
       />
+      <meta
+        name="google-site-verification"
+        content="W3MpZ-n3f__nszkbbn7M_8K2F8fttcYJTqwkJrwfX8o"
+      />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
