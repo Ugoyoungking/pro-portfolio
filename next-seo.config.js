@@ -1,18 +1,17 @@
 export default {
-  title: 'Ugochukwu Jonathan – Web Developer & Graphic Designer',
-  description: 'Official portfolio of Ugochukwu Jonathan (Ugoyoungking), a Nigerian web developer and graphic designer specializing in modern, responsive web apps and branding.',
-  canonical: 'https://pro-portfolio-ten.vercel.app',
+  title: 'Ugochukwu Jonathan | Ugoyoungking',
+  description: 'Web Developer & Graphic Designer based in Nigeria. Creating modern, responsive web experiences.',
   openGraph: {
     type: 'profile',
     locale: 'en_US',
-    url: 'https://pro-portfolio-ten.vercel.app',
-    title: 'Ugochukwu Jonathan – Web Developer & Graphic Designer',
-    description: 'Portfolio of Ugoyoungking, showcasing full-stack web development and digital design projects.',
+    url: 'https://pro-portfolio-ten.vercel.app/',
+    title: 'Ugochukwu Jonathan | Ugoyoungking',
+    description: 'Web Developer & Graphic Designer based in Nigeria.',
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Ugochukwu_Jonathan_%28Ugoyoungking%29.jpg',
-        width: 800,
-        height: 600,
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ugochukwu_Jonathan_%28Ugoyoungking%29.jpg/336px-Ugochukwu_Jonathan_%28Ugoyoungking%29.jpg?20251023225125',
+        width: 336,
+        height: 336,
         alt: 'Ugochukwu Jonathan (Ugoyoungking)',
       },
     ],
@@ -24,3 +23,4 @@ export default {
     cardType: 'summary_large_image',
   },
 };
+
